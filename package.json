@@ -1,0 +1,22 @@
+{
+  "name": "feature1-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive unit tests for feature1.js",
+  "main": "feature1.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose",
+    "test:silent": "jest --silent"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "keywords": ["testing", "jest", "lodash", "unit-tests"],
+  "author": "Test Generator",
+  "license": "MIT"
+}
